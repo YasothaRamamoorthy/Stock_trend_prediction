@@ -59,9 +59,9 @@ data_training_array= scalar.fit_transform(data_training)
 
 
 #load mode
-model=load_model('.\keras_model.h5')
+model=load_model('/workspaces/Stock_trend_prediction/keras_model.h5')
 
-#testing
+#testingst
 
 past_100_days=data_training.tail(100)
 
